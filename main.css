@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .btn{
+        @apply border border-red-600 px-2 py-1 rounded-full text-[11px] md:text-xl dark:text-white
+    }
+
+    .button{
+        @apply uppercase  md:py-2 md:px-7 py-0 px-3 md:text-xl text-[8px]  rounded-full border border-black dark:bg-white
+    }
+
+    .btnrd{
+        @apply uppercase  md:py-2 md:px-7 py-0 px-2 md:text-xl text-[7px]  rounded-full border border-red-500 dark:bg-white hover
+    }
+
+    .one{
+        @apply grid grid-cols-12 bg-[#FAFAFA] md:pt-40 md:pe-36 md:ps-20 
+    }
+
+    .tow{
+        @apply bg-[#2D3142] flex flex-col gap-60 ms-1 p-1 pb-8  md:gap-96 md:ms-36 md:p-8 md:pb-14 border-b border-b-slate-400 border-b-4 rounded-lg
+    }
+
+    .three{
+        @apply text-green-400 font-semibold text-[10px] md:text-xl
+    }
+
+    .four{
+        @apply text-xs font-bold text-white md:text-4xl
+    }
+
+    .five{
+        @apply flex items-center gap-1 md:gap-5
+    }
+
+    .six{
+        
+        @apply text-[7px] md:text-xs text-green-400 font-semibold
+    }
+
+    .seven{
+        @apply flex items-center gap-0.5 md:gap-2
+    }
+
+    .eight{
+        @apply text-yellow-500 text-[8px] md:text-xl
+    }
+
+    .nine{
+        @apply bg-[#F44335] px-2 py-1 rounded-lg text-[10px] md:text-xl md:px-3 hover
+    }
+
+    .ten{
+        @apply bg-white px-2 py-1 rounded-lg text-[10px] md:text-xl md:px-6 hover
+    }
+
+    .eleven{
+        @apply text-[7px] text-white md:text-[13px]
+    }
+
+    .aaa{
+        @apply flex flex-col gap-4 ps-2 pe-4 pb-7 md:ps-12 md:pe-8 md:gap-10 border-b border-b-slate-400 border-b-4 shadow-2xl  rounded-lg bg-white dark:bg-slate-600
+    }
+
+    .bbb{
+        @apply text-[#F9CCC7] text-base md:text-3xl
+    }
+
+    .ccc{
+        @apply text-[10px] md:text-xl dark:text-white
+    }
+
+    .white{
+        @apply dark:text-white
+    }
+
+    .hover{
+        @apply hover:scale-105 transition duration-300 cursor-pointer
+    }
+}
